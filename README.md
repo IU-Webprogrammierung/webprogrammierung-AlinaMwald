@@ -1,5 +1,4 @@
 # Project Overview
-Project Overview
 
 As part of this project, a personal website is being conceptualized, visually designed, and technically developed. The website aims to provide visitors with insight into my independent creative work beyond traditional client projects while reflecting my personality, interests, and creative approach. It serves as a portfolio for both analog and digital work, while also showcasing personal inspirations and areas of interest.
 
