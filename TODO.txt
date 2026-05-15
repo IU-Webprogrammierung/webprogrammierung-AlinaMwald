@@ -1,3 +1,4 @@
 - Hero-section: Bilder überprüfen ob alle Elemente einzeln eingefügt werden oder ein Gesamtbild
 - add layout grid -> Erklärung:  // https://developer.mozilla.org/de/docs/Web/CSS/Reference/Properties/width 
 - img object-fit:cover für Bilder? 
+- überprüfen html button oder link a WCAG konform
