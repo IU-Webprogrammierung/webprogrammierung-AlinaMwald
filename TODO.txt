@@ -1,0 +1,1 @@
+- Hero-section: Bilder überprüfen ob alle Elemente einzeln eingefügt werden oder ein Gesamtbild
