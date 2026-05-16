@@ -11,3 +11,5 @@
 Nav responsive: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 
 - Fontawesome nicht lokal eingebunden
+
+- Footer: Mittig ausrichten Impressum & Datenschutz
