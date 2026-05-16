@@ -8,9 +8,6 @@
 }
 
 .nav-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: #303030;
   text-align: center;
   padding: 18px 22px;
