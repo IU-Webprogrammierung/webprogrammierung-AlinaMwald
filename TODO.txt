@@ -2,8 +2,12 @@
 - add layout grid -> Erklärung:  // https://developer.mozilla.org/de/docs/Web/CSS/Reference/Properties/width 
 - img object-fit:cover für Bilder? 
 - überprüfen html button oder link a WCAG konform
+- Favicon erstellen, ggf Logo für HOME
 
-- Barrierefreiheit in README integrieren
+- Barrierefreiheit in README integrieren + verwendete Technologien (HTML, CSS, JavaScript), Sitemap oder Projektstruktur mit beschreibung
+- Readme: Breakpoints
 - Add fontawesome fpr hamburger menu
 
 Nav responsive: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
+
+- Fontawesome nicht lokal eingebunden
