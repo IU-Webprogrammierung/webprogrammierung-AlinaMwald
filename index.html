@@ -12,13 +12,16 @@
 <body>
     <!-- Navigation -->
     <nav class="bg-light">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#featured">Featured</a></li>
-            <li><a href="/work.html">Work</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="navbar" id="topNavbar">
+            <a href="#" class="nav-link active">Home</a>
+            <a href="#featured" class="nav-link">Featured</a>
+            <a href="/work.html" class="nav-link">Work</a>
+            <a href="/about.html" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
     </nav>
 
     <!-- Main Content -->
@@ -134,7 +137,7 @@
             </div>
         </section>
 
-<!-- Contact Section -->
+        <!-- Contact Section -->
         <section class="bg-light" id="contact">
             <div class="container">
                 <div class="row">
@@ -179,11 +182,6 @@
             </div>
         </section>
     </main>
-
+    <script src="js/javascript.js"></script>
 </body>
-
-</html>
-</main>
-</body>
-
 </html>
