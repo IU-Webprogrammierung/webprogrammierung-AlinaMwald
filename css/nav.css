@@ -11,6 +11,7 @@
   text-align: center;
   padding: 18px 22px;
   text-decoration: none;
+  font-weight: 600;
   font-size: 1.357rem;
   float: none;
 }
@@ -21,8 +22,8 @@
 }
 
 .nav-link.active {
-  background-color: #991A4D;
-  color: #F9F6E3;
+  color: #303030;
+  border-bottom: 4px solid #991A4D;
 }
 
 .navbar .icon {
