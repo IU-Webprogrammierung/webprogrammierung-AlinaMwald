@@ -2,3 +2,8 @@
 - add layout grid -> Erklärung:  // https://developer.mozilla.org/de/docs/Web/CSS/Reference/Properties/width 
 - img object-fit:cover für Bilder? 
 - überprüfen html button oder link a WCAG konform
+
+- Barrierefreiheit in README integrieren
+- Add fontawesome fpr hamburger menu
+
+Nav responsive: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
