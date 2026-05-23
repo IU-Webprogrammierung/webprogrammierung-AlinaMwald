@@ -16,3 +16,4 @@ Nav responsive: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 
 - NAv in Tag <header> wg Accessibility
 - Button Mobiles Menü
+- ggf. Fonts in static legen
