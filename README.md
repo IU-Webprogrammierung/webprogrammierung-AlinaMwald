@@ -9,6 +9,9 @@ During the concept phase, website content, information architecture, visual desi
 
 Current standards for usability, user experience, responsive web design, and accessibility according to WCAG 2.2 are considered throughout the development process.
 
+# Github Preview
+https://iu-webprogrammierung.github.io/webprogrammierung-AlinaMwald/
+
 #Accessibility (Notes)
 
 article tag for gallery-elements
@@ -19,3 +22,4 @@ aria-current="page" for active nav-links
 contrast for UI Elements (AA & AAA Standards)
 headline hierarchie semantic structure  
 font-sizes -> good accessibility
+
