@@ -8,3 +8,14 @@ Who am I at my core? And how can personality and creativity be expressed authent
 During the concept phase, website content, information architecture, visual design, and technical requirements regarding responsiveness and accessibility are being developed. The parallel technical implementation is carried out under version control using Git, based on HTML, CSS, and additional web technologies where needed.
 
 Current standards for usability, user experience, responsive web design, and accessibility according to WCAG 2.2 are considered throughout the development process.
+
+#Accessibility (Notes)
+
+article tag for gallery-elements
+alt-tags for images
+no alt-tags for decorative-only images
+structure head, header, nav, main, footer
+aria-current="page" for active nav-links
+contrast for UI Elements (AA & AAA Standards)
+headline hierarchie semantic structure  
+font-sizes -> good accessibility
