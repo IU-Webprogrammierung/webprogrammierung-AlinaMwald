@@ -21,3 +21,6 @@ Nav responsive: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 Accessibility
 - Gallerie-Elemente in <article>-Tags -> repräsentieren eigenständige Werke/Projekte 
 Gellerie: ARIA-Grid?
+
+- About List: 
+  list-style: none; -> Aufzählungspunkte wegnehmen für WCAG, Liste erkennen sinnvoll für Accesibility wegen Aufzählungspunkten
