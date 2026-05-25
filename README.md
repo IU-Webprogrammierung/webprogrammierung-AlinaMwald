@@ -12,14 +12,20 @@ Current standards for usability, user experience, responsive web design, and acc
 # Github Preview
 https://iu-webprogrammierung.github.io/webprogrammierung-AlinaMwald/
 
-#Accessibility (Notes)
+# Accessibility
+Accessibility and semantic web standards were considered throughout the conception and implementation of the website in order to create an inclusive and user-friendly experience.
 
-article tag for gallery-elements
-alt-tags for images
-no alt-tags for decorative-only images
-structure head, header, nav, main, footer
-aria-current="page" for active nav-links
-contrast for UI Elements (AA & AAA Standards)
-headline hierarchie semantic structure  
-font-sizes -> good accessibility
+The website structure follows semantic HTML standards using elements such as header, nav, main, section, article, and footer to improve readability for screen readers.
 
+A clear headline hierarchy from h1 to h4 is used to logically structure content and improve navigation for screen readers. 
+
+The language of all HTML files is explicitly declared as German (lang="de").
+
+Images containing relevant content include descriptive alt attributes.
+Purely decorative images intentionally do not have alt attributes to avoid unnecessary screen reader output. 
+
+Active navigation states are marked using aria-current="page" for improved orientation.
+
+Typography and UI elements were designed with accessibility in mind. Font sizes and line heights were chosen to ensure good readability across devices, while color combinations and interface elements were checked against WCAG contrast requirements (AA and partially AAA standards).
+
+To improve readability overly long sentences and dashes in texts were avoided wherever possible.
