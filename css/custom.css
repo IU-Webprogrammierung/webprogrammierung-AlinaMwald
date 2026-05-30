@@ -1,3 +1,10 @@
+body {
+    font-family: 'Instrument Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F6E3;
+}
+
 .bg-light {
     background-color: #F9F6E3;
 }
@@ -6,9 +13,10 @@
     background-color: #303030;
 }
 
-body {
-    font-family: 'Instrument Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #F9F6E3;
+.text-light {
+    color: #F9F6E3;
+}
+
+.text-dark {
+    color: #303030;
 }
