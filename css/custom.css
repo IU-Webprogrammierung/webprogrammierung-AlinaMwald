@@ -20,3 +20,8 @@ body {
 .text-dark {
     color: #303030;
 }
+
+.blob, .stars, .plant {
+    height: 50px;
+    width: auto;
+}

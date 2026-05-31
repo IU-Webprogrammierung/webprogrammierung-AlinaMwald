@@ -29,3 +29,7 @@ Active navigation states are marked using aria-current="page" for improved orien
 Typography and UI elements were designed with accessibility in mind. Font sizes and line heights were chosen to ensure good readability across devices, while color combinations and interface elements were checked against WCAG contrast requirements (AA and partially AAA standards).
 
 To improve readability overly long sentences and dashes in texts were avoided wherever possible.
+
+
+# Performance
+The used svgs are only 32px wide or high to ensure small file sizes and better performance
