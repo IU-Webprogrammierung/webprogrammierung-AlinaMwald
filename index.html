@@ -7,22 +7,11 @@
     <title>Alinas Kunst & Illustration</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body>
     <header>
-        <!-- Navigation -->
-        <nav class="bg-light">
-            <div class="navbar" id="topNavbar">
-                <a href="index.html" class="nav-link active" aria-current="page">Home</a>
-                <a href="work.html" class="nav-link">Work</a>
-                <a href="about.html" class="nav-link">About</a>
-                <a href="index.html#contact" class="nav-link">Contact</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
-            </div>
-        </nav>
     </header>
 
     <!-- Main Content -->
@@ -43,8 +32,10 @@
                 test later if it is better to integrate a whole image 
                 instead of single ones, maybe in different versions for each defined screensize-->
                 <img src="static/img/deko/stars-yellow.svg" alt="" class="stars stars-1">
-                <img src="static/img/deko/blobs-pink-1.svg" alt="" class="blob blob-pink- 1"> <!--Decorative Element, no alt-text needed-->
-                <img src="static/img/deko/blobs-pink-2.svg" alt="" class="blob blob-pink-2"> <!--Decorative Element, no alt-text needed-->
+                <img src="static/img/deko/blobs-pink-1.svg" alt="" class="blob blob-pink- 1">
+                <!--Decorative Element, no alt-text needed-->
+                <img src="static/img/deko/blobs-pink-2.svg" alt="" class="blob blob-pink-2">
+                <!--Decorative Element, no alt-text needed-->
                 <img src="static/img/deko/plant-blue-2.svg" alt="" class="plant plant-blue-one">
                 <img src="static/img/deko/plant-blue-3.svg" alt="" class="plant plant-2">
             </div>
@@ -56,7 +47,8 @@
                 <div class="row">
                     <div class="col-5">
                         <a href="work.html" class="image-wrapper">
-                            <img src="https://placehold.co/50x50" alt="Hier wird ein alt-text eingefügt, der die Grafik beschreibt">
+                            <img src="https://placehold.co/50x50"
+                                alt="Hier wird ein alt-text eingefügt, der die Grafik beschreibt">
                         </a>
                     </div>
                     <div class="col-4">
@@ -79,11 +71,12 @@
 
         <!-- About Section -->
         <section class="bg-light">
-            <div class="container">
+            <div class="container" hx-get="components/header.html" hx-trigger="load">
                 <div class="row">
                     <div class="col-5">
                         <a href="about.html" class="image-wrapper">
-                            <img src="https://placehold.co/50x50" alt="Hier wird ein alt-text eingefügt, der die Grafik beschreibt">
+                            <img src="https://placehold.co/50x50"
+                                alt="Hier wird ein alt-text eingefügt, der die Grafik beschreibt">
                         </a>
                     </div>
 
@@ -154,21 +147,8 @@
         </section>
     </main>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <p>© 2026 Alina Mwald.</p>
-                </div>
-                <div class="col-8">
-                    <a class="nav-link" href="/imprint.html">Impressum</a>
-                    <a class="nav-link" href="/dataprotection.html">Datenschutzerklärung</a>
-                </div>
-            </div>
-        </div>
+    <footer class="container">
     </footer>
-
-    <script src="js/javascript.js"></script>
 
 </body>
 
