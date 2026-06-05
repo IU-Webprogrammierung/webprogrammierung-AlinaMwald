@@ -27,8 +27,12 @@
 }
 
 .navbar .icon {
+  padding: 0.5rem;
   display: none;
+  font-size: 35px;
+  color: #991A4D
 }
+
 
 @media screen and (max-width: 768px) {
   .navbar {
