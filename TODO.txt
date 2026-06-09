@@ -24,3 +24,11 @@ Gellerie: ARIA-Grid?
 
 - About List: 
   list-style: none; -> Aufzählungspunkte wegnehmen für WCAG, Liste erkennen sinnvoll für Accesibility wegen Aufzählungspunkten
+
+
+  - Paddings mit clamp -> clamp(min, preferred, max)
+  section {
+  padding: clamp(40px, 6vw, 120px) 0;
+}
+
+  -> smooth statt Sprünge
