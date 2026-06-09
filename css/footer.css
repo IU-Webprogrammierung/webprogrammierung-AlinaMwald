@@ -1,0 +1,14 @@
+.footer-row {
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-end; /* decided to align links to the right for better visual balance */
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+footer .footer-links .nav-link {
+    white-space: nowrap;
+}

@@ -5,6 +5,7 @@ body {
     background-color: #F9F6E3;
 }
 
+/* Backgrounds */
 .bg-light {
     background-color: #F9F6E3;
 }
@@ -12,6 +13,13 @@ body {
 .bg-dark {
     background-color: #303030;
 }
+
+.slanted-section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    clip-path: polygon(0 5vw, 100% 0, 100% calc(100% - 5vw), 0 100%);
+}
+
 
 .text-light {
     color: #F9F6E3;
@@ -24,20 +32,4 @@ body {
 .blob, .stars, .plant {
     height: 50px;
     width: auto;
-}
-
-/* Footer specific styles */
-.footer-row {
-    align-items: center;
-}
-
-.footer-links {
-    display: flex;
-    justify-content: flex-end; /* decided to align links to the right for better visual balance */
-    gap: 1rem;
-    flex-wrap: wrap;
-}
-
-footer .footer-links .nav-link {
-    white-space: nowrap;
 }
