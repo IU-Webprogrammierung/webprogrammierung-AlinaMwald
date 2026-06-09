@@ -20,6 +20,11 @@ body {
     clip-path: polygon(0 5vw, 100% 0, 100% calc(100% - 5vw), 0 100%);
 }
 
+.slanted-bottom {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
+}
 
 .text-light {
     color: #F9F6E3;
