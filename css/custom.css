@@ -18,18 +18,28 @@ body {
     background-color: #991A4D;
 }
 
+/*sections and spacing */
+section {
+    padding: var(--space-xl) 0;
+}
+
+.section-title {
+  margin-bottom: var(--space-md);
+}
+
+.section-xs {
+  padding: var(--space-sm) 0;
+}
+
 .slanted-section {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
     clip-path: polygon(0 5vw, 100% 0, 100% calc(100% - 5vw), 0 100%);
 }
 
 .slanted-bottom {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
 }
 
+/* text colors */
 .text-light {
     color: #F9F6E3;
 }
@@ -41,4 +51,15 @@ body {
 .blob, .stars, .plant {
     height: 50px;
     width: auto;
+}
+
+/* Hero Section spacing*/
+#hero {
+  padding-top: var(--space-xl);
+  padding-bottom: var(--space-xl);
+  position: relative;
+}
+
+#hero img {
+  margin-top: var(--space-md);
 }

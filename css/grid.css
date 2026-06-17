@@ -6,12 +6,21 @@
 
 :root {
   --grid-gap: 30px;
-  --container-max-width: 1200px;
+  --container-max-width: 1920px;
   --container-padding: 30px;
+
+/* Spacing scale */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 8rem;
+
 }
 
 .container {
   margin: 0 auto;
+  max-width: var(--container-max-width);
   padding: 0 var(--container-padding);
 }
 
@@ -19,6 +28,7 @@
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
   gap: var(--grid-gap);
+  margin-top: var(--space-lg);
   align-items: start;
 }
 
