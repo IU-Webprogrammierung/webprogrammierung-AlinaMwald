@@ -1,39 +1,31 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Tilt Warp', sans-serif;
+  line-height: 1.1;
+  margin-bottom: var(--space-sm);
+}
+
 h1 {
-    font-family: 'Tilt Warp', sans-serif;
-    font-size: 5.5rem;
+  font-size: clamp(2.5rem, 6vw, 5.5rem);
 }
 
 h2 {
-    font-family: 'Tilt Warp', sans-serif;
-    font-size: 4.25rem;
+  font-size: clamp(1.75rem, 5vw, 4.25rem);
 }
 
 h3 {
-    font-family: 'Tilt Warp', sans-serif;
-    font-size: 3.25rem;
+font-size: clamp(1.3rem, 4vw, 3.25rem);
 }
 
 h4 {
-    font-family: 'Tilt Warp', sans-serif;
-    font-size: 2.5rem;
+  font-size: clamp(1.125rem, 3vw, 2.5rem);
 }
 
 h5, .h5 {
-    font-family: 'Tilt Warp', sans-serif;
-    font-size: 1.75rem;
-    line-height: 1.1;
-    color: #991A4D;
+  font-size: 1.75rem;
+  color: #991A4D;
 }
 
 h6, .h6 {
-    font-family: 'Tilt Warp', sans-serif;
-    font-size: 1.357rem;
-    line-height: 1.1;
-    color: #991A4D;
-}
-
-h1, h2, h3, h4 {
-  margin-bottom: var(--space-sm);
-  color: #303030;
-  line-height: 1.1;
+  font-size: 1.357rem;
+  color: #991A4D;
 }

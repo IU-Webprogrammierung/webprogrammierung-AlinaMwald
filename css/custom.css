@@ -1,8 +1,29 @@
+html {
+  background-color: #F9F6E3;
+}
+
 body {
-    font-family: 'Instrument Sans', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #F9F6E3;
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 1.125rem; 
+  line-height: 1.6;
+  color: #303030;
+}
+
+/* text */
+.text-light {
+    color: #F9F6E3;
+}
+
+.text-dark {
+    color: #303030;
+}
+
+p {
+  margin-bottom: var(--space-md);
+}
+
+.text-content {
+  max-width: 65ch;
 }
 
 /* Backgrounds */
@@ -24,7 +45,7 @@ section {
 }
 
 .section-title {
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-lg);
 }
 
 .section-xs {
@@ -37,15 +58,6 @@ section {
 
 .slanted-bottom {
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
-}
-
-/* text colors */
-.text-light {
-    color: #F9F6E3;
-}
-
-.text-dark {
-    color: #303030;
 }
 
 .blob, .stars, .plant {

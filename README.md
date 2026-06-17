@@ -30,6 +30,9 @@ Typography and UI elements were designed with accessibility in mind. Font sizes 
 
 To improve readability overly long sentences and dashes in texts were avoided wherever possible.
 
+Clamp was used to define responsive headlines that scale variably.
+
+- max width for content texts for better readability (.text-content -> 65ch -> ch = character width) -> better readability & user experience
 
 # Performance
 The used svgs are only 32px wide or high to ensure small file sizes and better performance
