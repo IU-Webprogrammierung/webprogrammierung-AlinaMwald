@@ -102,6 +102,7 @@ section {
   display: block;        
   margin: 0 auto;       
   width: fit-content;
+  overflow: visible; 
 }
 
 .word {
@@ -125,7 +126,6 @@ section {
   padding-top: var(--space-sm);
   transform: translate(0px, 190px) rotate(-3deg);
 }
-
 
 /* Hero imgs */
 .hero-container {
@@ -192,13 +192,31 @@ section {
   width: 10%;
 }
 
-
 @media (max-width: 768px) {
 
   .hero-text {
     text-align: center;
     justify-content: center;
     max-width: 100%;
+  }
+
+  .hero-heading {
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+    transform: none;
+  }
+
+  .word-1 {
+    transform: translate(-90px, 20px) rotate(-6deg);
+  }
+
+  .word-2 {
+    transform: translate(90px, 30px) rotate(4deg);
+  }
+
+  .word-3 {
+    transform: translate(0px, 120px) rotate(-3deg);
   }
 
   .hero-visual {
@@ -262,5 +280,7 @@ section {
     bottom: 0;
     right: 5%;
   }
+
 }
+
 
