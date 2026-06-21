@@ -88,6 +88,7 @@ section {
 .hero-visual {
   position: relative;
   min-height: 500px;
+  overflow: visible;
 }
 
 .hero-text {
@@ -147,10 +148,9 @@ section {
 .hero-person {
   position: absolute;
   left: 0;
-  bottom: 0;
-
-  width: 35%;
-  z-index: 3;
+  bottom: -240px;
+  width: 24%;
+  z-index: 2;
 }
 
 .hero-line {
@@ -283,3 +283,8 @@ section {
 }
 
 
+/* work overview */
+#workOverview {
+  position: relative;
+  z-index: 3;
+}
