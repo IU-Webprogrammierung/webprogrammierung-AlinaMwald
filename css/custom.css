@@ -24,6 +24,12 @@ p {
   margin-bottom: var(--space-md);
 }
 
+ul {
+  list-style: disc;
+  padding-left: 1.5em;
+  margin-bottom: var(--space-md);
+}
+
 .text-content {
   max-width: 65ch;
 }
