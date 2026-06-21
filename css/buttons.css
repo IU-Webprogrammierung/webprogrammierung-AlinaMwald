@@ -1,0 +1,33 @@
+.btn-primary {
+  display: inline-block;
+  background-color: #FFF905;
+  color: #303030;
+  font-family: 'Tilt Warp', sans-serif;
+  font-weight: 700;
+  font-size: 1.125rem;
+  transform: rotate(-3deg);
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: var(--space-sm);
+  margin-top: var(--space-md);
+  transition: background-color 0.18s ease, color 0.18s ease, transform 0.12s ease, box-shadow 0.18s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus-visible {
+  background-color: #F7E700; /* slightly darker hover */
+  color: #303030;
+  transform: translateY(-2px) rotate(-3deg);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.btn-primary:active {
+  transform: translateY(0) rotate(-3deg) scale(0.995);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.10);
+}
+
+.btn-primary:focus-visible {
+  outline: 3px solid rgba(153,26,77,0.16);
+  outline-offset: 4px;
+}
