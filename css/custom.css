@@ -62,13 +62,6 @@ section {
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 5vw), 0 100%);
 }
 
-/* Decorative elements 
-.blob, .stars, .plant {
-    height: 50px;
-    width: auto;
-}
-    */
-
 .deco {
   position: absolute;
   width: 60px;   /* visuelle Größe */

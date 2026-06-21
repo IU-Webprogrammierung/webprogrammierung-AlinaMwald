@@ -18,6 +18,19 @@
 
 }
 
+/* Responsive adjustments spacing*/
+@media (max-width: 768px) {
+  section {
+    padding: var(--space-md) 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  section {
+    padding: var(--space-lg) 0;
+  }
+}
+
 .container {
   margin: 0 auto;
   max-width: var(--container-max-width);
