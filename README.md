@@ -36,3 +36,7 @@ Clamp was used to define responsive headlines that scale variably.
 
 # Performance
 The used svgs are only 32px wide or high to ensure small file sizes and better performance
+
+# Navigation Fix: Navigation Links Not Clickable
+In the hero section, absolutely positioned elements (images) were overlapping the navigation, preventing links from being clickable.
+Solution: Ensure the navigation has a higher stacking order with z-index!
