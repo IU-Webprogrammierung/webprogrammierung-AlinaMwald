@@ -1,8 +1,10 @@
 @import url('fonts.css');
 @import url('headlines.css');
 @import url('nav.css');
-@import url('footer.css');
-@import url('grid.css');
+/* Core: variables, fonts and typography */
+@import url('variables.css');
+@import url('fonts.css');
+@import url('headlines.css');
 @import url('custom.css');
 @import url('imgs.css');
 @import url('buttons.css');
