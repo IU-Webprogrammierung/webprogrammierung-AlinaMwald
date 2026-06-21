@@ -141,7 +141,7 @@ section {
   position: absolute;
   bottom: 1px;
   right: 10%;
-  width: 40%;
+  width: 32%;
   z-index: 2;
 }
 
@@ -220,33 +220,31 @@ section {
 
   .hero-visual {
     position: relative;
-    min-height: auto;
-    margin-top: var(--space-md);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    min-height: 350px;
   }
 
   .hero-person {
     position: relative;
-    width: 70%;
-    max-width: 280px;
-    margin: 0 auto;
+    width: 45%;
+    max-width: 260px;
+    margin-left: 5%;
+    bottom: -1rem;
+    z-index: 2;
   }
 
   .hero-chicken {
     position: relative;
-    width: 75%;
-    max-width: 240px;
-    margin-top: var(--space-sm);
-    right: auto;
-    bottom: auto;
+    width: 40%;
+    max-width: 200px;
+    margin-top: 50%; 
+    bottom: -1rem;
+    z-index: 3;
   }
 
   .hero-line {
     position: relative;
     width: 100%;
-    margin-top: var(--space-sm);
+    margin-top: -10px;
   }
 
   .deco {
@@ -261,7 +259,7 @@ section {
   }
 
   .deco-blob-1 {
-    top: 20%;
+    top: 8%;
     left: 5%;
   }
 
@@ -273,6 +271,7 @@ section {
   .deco-plant-2 {
     bottom: 5%;
     left: 10%;
+    z-index: 3;
   }
 
   .deco-plant-3 {
