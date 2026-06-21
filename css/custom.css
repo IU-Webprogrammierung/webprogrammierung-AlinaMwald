@@ -4,9 +4,11 @@ html {
 
 body {
   font-family: 'Instrument Sans', sans-serif;
-  font-size: 1.125rem; 
+  font-size: 1.125rem;
   line-height: 1.6;
   color: #303030;
+  background-color: #F9F6E3;
+  min-height: 100vh;
 }
 
 /* text */
@@ -165,3 +167,77 @@ section {
   right: 0;
   width: 10%;
 }
+
+
+
+@media (max-width: 768px) {
+
+  .hero-text {
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .hero-visual {
+    position: relative;
+    min-height: auto;
+    margin-top: var(--space-md);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-person {
+    position: relative;
+    width: 70%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .hero-chicken {
+    position: relative;
+    width: 75%;
+    max-width: 240px;
+    margin-top: var(--space-sm);
+    right: auto;
+    bottom: auto;
+  }
+
+  .hero-line {
+    position: relative;
+    width: 100%;
+    margin-top: var(--space-sm);
+  }
+
+  .deco {
+   display: block;
+   position: absolute;
+   width: 45px;         
+  }
+
+  .deco-star-1 {
+    top: -10%;
+    right: 10%;
+  }
+
+  .deco-blob-1 {
+    top: 20%;
+    left: 5%;
+  }
+
+  .deco-blob-2 {
+    bottom: 25%;
+    right: 10%;
+  }
+
+  .deco-plant-2 {
+    bottom: 5%;
+    left: 10%;
+  }
+
+  .deco-plant-3 {
+    bottom: 0;
+    right: 5%;
+  }
+}
+
