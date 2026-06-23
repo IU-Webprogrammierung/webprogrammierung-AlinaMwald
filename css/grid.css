@@ -71,3 +71,10 @@
     grid-column: span 12;
   }
 }
+
+
+@media (max-width: 768px) {
+  .col-8 {
+    grid-column: span 12;
+  }
+}
