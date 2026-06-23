@@ -30,3 +30,6 @@ h6, .h6 {
   color: #991A4D;
 }
 
+.h1-subpage {
+  margin-top: var(--space-xl);
+}

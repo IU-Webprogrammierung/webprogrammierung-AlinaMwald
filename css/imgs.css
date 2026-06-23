@@ -10,3 +10,35 @@
   aspect-ratio: 4 / 3;
   overflow: hidden;
 }
+
+/* Work section hero-img */
+
+.hero-img-fullscreen {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Bild steuert Desktop + Tablet */
+.hero-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 5;   /* 🔥 Desktop Banner Verhältnis */
+  object-fit: cover;
+  display: block;
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .hero-img {
+    aspect-ratio: 16 / 7;
+  }
+}
+
+/* Mobile = Quadrat */
+@media (max-width: 768px) {
+  .hero-img {
+    aspect-ratio: 1 / 1;   /* 🔥 DAS ist dein gewünschtes Quadrat */
+  }
+}
+
+
