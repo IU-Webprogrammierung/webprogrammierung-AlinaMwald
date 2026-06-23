@@ -414,6 +414,10 @@ input:focus, textarea:focus {
 }
 
 /* Work Subpage */
+.hero-img-fullscreen + section {
+  margin-top: -8rem;   /* 🔥 kein Abstand oben */
+}
+
 .wrapper {
   position: relative;
 }
@@ -424,4 +428,17 @@ input:focus, textarea:focus {
   right: 30px;
   width: clamp(70px, 12vw, 160px);
   z-index: 2;
+}
+
+.deco-work-blob1 {
+  left: 5%;
+  width: clamp(70px, 12vw, 160px);
+  bottom: 5%;
+}
+
+@media (max-width: 768px) {
+  .contact-deco {
+    right: -10px; /* weniger weit raus */
+    top: -20px;
+  }
 }

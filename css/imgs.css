@@ -41,4 +41,12 @@
   }
 }
 
+/* Gallery images */
+
+.img-gallery img { /* kein objectfit: cover ! */
+  width: 100%;
+  height: auto;   
+  display: block;
+  border-radius: 12px;
+}
 

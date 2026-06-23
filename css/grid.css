@@ -65,16 +65,49 @@
 .col-11 { grid-column: span 11; }
 .col-12 { grid-column: span 12; }
 
-
 @media (max-width: 992px) {
   .col-tablet-12 {
     grid-column: span 12;
   }
 }
 
-
 @media (max-width: 768px) {
   .col-8 {
     grid-column: span 12;
   }
 }
+
+/* Gallery grid */
+.work-grid {
+  grid-auto-rows: auto; 
+  align-items: start;
+  grid-auto-flow: row dense;
+}
+
+.work-grid article {
+  display: flex;
+  flex-direction: column;
+}
+
+.work-grid > :nth-child(4) { /* Achtung, echtes Masonry wird ggf. in Betracht gezogen */
+  grid-column: 5 / span 4;
+  margin-top: clamp(-300px, -40vw, -600px);
+}
+
+@media (max-width: 992px) {
+  .col-4 {
+    grid-column: span 6;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-4 {
+    grid-column: span 12;
+  }
+  .work-grid > :nth-child(4) { /* Achtung, echtes Masonry wird ggf. in Betracht gezogen */
+  grid-column: span 12;
+  margin-top: var(--space-sm);
+}
+
+}
+
