@@ -307,7 +307,6 @@ section {
 
 }
 
-
 /* work overview */
 #workOverview {
   position: relative;
@@ -350,7 +349,6 @@ section {
 .contact-form > div {
   min-width: 0;
 }
-
 
 label {
   display: block;
@@ -413,4 +411,17 @@ input:focus, textarea:focus {
   .contact-form > div {
     width: 100%;
   }
+}
+
+/* Work Subpage */
+.wrapper {
+  position: relative;
+}
+
+.deco-stars-work {
+  position: absolute;
+  top: -30px;
+  right: 30px;
+  width: clamp(70px, 12vw, 160px);
+  z-index: 2;
 }
