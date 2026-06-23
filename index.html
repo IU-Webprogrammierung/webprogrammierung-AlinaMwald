@@ -39,11 +39,11 @@
                     <!--Decorative Elements, can also be removed, no alt-text needed - 
                         test later if it is better to integrate a whole image 
                         instead of single ones, maybe in different versions for each defined screensize-->
-                    <img src="static/img/deko/stars.svg" class="deco deco-star-1" alt="">
-                    <img src="static/img/deko/blobs-pink-1.svg" class="deco deco-blob-1" alt="">
-                    <img src="static/img/deko/blobs-pink-2.svg" class="deco deco-blob-2" alt="">
-                    <img src="static/img/deko/plant-blue-2.svg" class="deco deco-plant-2" alt="">
-                    <img src="static/img/deko/plant-blue-3.svg" class="deco deco-plant-3" alt="">
+                    <img src="static/img/deko/stars.svg" class="deco deco-star-1" alt="" aria-hidden="true">
+                    <img src="static/img/deko/blobs-pink-1.svg" class="deco deco-blob-1" alt="" aria-hidden="true">
+                    <img src="static/img/deko/blobs-pink-2.svg" class="deco deco-blob-2" alt="" aria-hidden="true">
+                    <img src="static/img/deko/plant-blue-2.svg" class="deco deco-plant-2" alt="" aria-hidden="true">
+                    <img src="static/img/deko/plant-blue-3.svg" class="deco deco-plant-3" alt="" aria-hidden="true">
 
                 </div>
 
@@ -57,7 +57,7 @@
                     <div class="col-6 col-tablet-12">
                         <a href="work.html" class="image-wrapper">
                             <img src="static/img/index/work-overview_daisies-longhair-picnic.png"
-                                alt="Hier wird ein alt-text eingefügt, der die Grafik beschreibt">
+                                alt="Digitale Illustration einer Frau die einen korb hält und vor einer Blumenwiese steht">
                         </a>
                     </div>
                     <div class="col-4 col-tablet-12 text-content">
@@ -73,6 +73,7 @@
                         </ul>
                         <a href="work.html" class="btn btn-primary">
                             Zu meinen Arbeiten!
+                            <span class="sr-only"> – Portfolio ansehen</span>
                         </a>
                     </div>
                 </div>
@@ -86,7 +87,7 @@
                     <div class="col-6 col-tablet-12">
                         <a href="about.html" class="image-wrapper">
                             <img src="static/img/index/about-overview_alina.png"
-                                alt="Hier wird ein alt-text eingefügt, der die Grafik beschreibt">
+                                alt="Porträt von Alina sitzend vor Blumen">
                         </a>
                     </div>
 
@@ -127,27 +128,27 @@
 
                 <div class="contact-card">
 
-                    <img src="static/img/deko/blob-yellow.svg" alt="" class="contact-deco">
+                    <img src="static/img/deko/blob-yellow.svg" alt="" aria-hidden="true" class="contact-deco">
 
                     <form class="contact-form row">
 
                         <div class="col-5 col-tablet-12">
-                            <label for="name">Name:</label>
-                            <input id="name" type="text" placeholder="Max Mustermann" required>
+                            <label for="name" name="name">Name:</label>
+                            <input id="name" type="text" required aria-required="true" placeholder="Max Mustermann" required>
                         </div>
 
                         <div class="col-5 col-tablet-12">
                             <label for="email">Email:</label>
-                            <input id="email" type="email" placeholder="info@testemail.de" required>
+                            <input id="email" type="email" required aria-required="true" placeholder="info@testemail.de" required>
                         </div>
 
                         <div class="col-10 col-tablet-12">
-                            <label for="message">Message:</label>
+                            <label for="message" name="message">Message:</label>
                             <textarea id="message" rows="5" placeholder="Deine Nachricht..."></textarea>
                         </div>
 
                         <div class="col-12 contact-actions">
-                            <button class="btn btn-primary">Absenden</button>
+                            <button class="btn btn-primary" type="submit">Absenden</button>
                         </div>
 
                     </form>
