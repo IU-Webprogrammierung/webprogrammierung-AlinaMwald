@@ -16,7 +16,7 @@ h3 {
 font-size: clamp(1.3rem, 4vw, 3.25rem);
 }
 
-h4 {
+h4{
   font-size: clamp(1.125rem, 3vw, 2.5rem);
 }
 

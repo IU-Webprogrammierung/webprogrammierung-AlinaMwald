@@ -1,14 +1,9 @@
-- Hero-section: Bilder überprüfen ob alle Elemente einzeln eingefügt werden oder ein Gesamtbild
 - add layout grid -> Erklärung:  // https://developer.mozilla.org/de/docs/Web/CSS/Reference/Properties/width 
-- img object-fit:cover für Bilder? 
-- überprüfen html button oder link a WCAG konform!! -> interne oder externe Navigation Regularien beachten
+
 - Favicon erstellen, ggf Logo für HOME
 
 - Barrierefreiheit in README integrieren + verwendete Technologien (HTML, CSS, JavaScript), Sitemap oder Projektstruktur mit beschreibung
 - Readme: Breakpoints
-- Add fontawesome fpr hamburger menu
-
-Nav responsive: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 
 - Fontawesome nicht lokal eingebunden
 
@@ -24,10 +19,13 @@ Accessibility
 - About List: 
   list-style: none; -> Aufzählungspunkte wegnehmen für WCAG, Liste erkennen sinnvoll für Accesibility wegen Aufzählungspunkten
 
-
   - Paddings mit clamp -> clamp(min, preferred, max)
   section {
   padding: clamp(40px, 6vw, 120px) 0;
 }
 
   -> smooth statt Sprünge
+
+  - Fehlermeldung wenn nicht ausgefüllte Formularfelder gezielt gestalten
+
+  - Responsiveness Bild Person bei 833x855px zB funktioniert noch nicht!
