@@ -66,6 +66,12 @@ textarea:focus-visible {
 /* Contact Button */
 .contact-actions {
   display: flex;
-  justify-content: flex-end;  /* 🔥 nach rechts */
+  justify-content: flex-end;
   margin-top: var(--space-md);
+}
+
+@media (max-width: 768px) {
+  .contact-actions {
+    justify-content: center;
+  }
 }

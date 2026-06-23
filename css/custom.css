@@ -441,6 +441,7 @@ input:focus, textarea:focus {
   left: 40%;
   width: clamp(70px, 12vw, 160px);
   bottom: 10%;
+  right: 30px;
 }
 
 .deco-work-plant {
@@ -449,20 +450,27 @@ input:focus, textarea:focus {
   bottom: 10%;                
   transform: translateY(clamp(30%, 45%, 60%));
   width: clamp(120px, 13vw, 260px);
-  z-index: 5;
+}
+
+.deco-work-yellow-blob {
+  position: absolute;
+  width: clamp(70px, 12vw, 160px);
+  right: 30%;
+  transform: translateY(clamp(30%, 45%, 60%));
+  bottom: 25%;
 }
 
 @media (max-width: 992px) {
-  .deco-work-blob1 {
+  .deco-work-blob1, .deco-work-yellow-blob {
     display: none;
   }
 
   .deco-work-plant {
     transform: translateY(clamp(25%, 40%, 55%));
     width: clamp(100px, 18vw, 200px);
+    padding-top: 1rem;
   }
 }
-
 
 
 @media (max-width: 768px) {
