@@ -118,32 +118,44 @@
         <!-- Contact Section -->
         <section class="bg-primary text-light" id="contact">
             <div class="container">
+
                 <div class="row">
                     <div class="col-12">
                         <h2 class="section-title">Contact</h2>
-                        <img src="assets/blob-yellow.svg" alt="" aria-hidden="true" class="contact-blob">
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-10">
-                        <form class="contact-form row">
-                            <div class="col-4">
-                                <label for="name">Name:</label>
-                                <input type="text" id="name" name="name" placeholder="Max Mustermann" required>
-                            </div>
-                            <div class="col-4">
-                                <label for="email">Email:</label>
-                                <input type="email" id="email" name="email" placeholder="max@mustermann.de" required>
-                            </div>
-                            <div class="col-8">
-                                <label for="message">Message:</label>
-                                <textarea id="message" name="message" rows="5"
-                                    placeholder="Bitte gib hier deine Textnachricht ein..." required></textarea>
-                            </div>
-                            <button type="submit" class="btn-secondary">Absenden</button>
-                    </div>
+                <!-- 👇 Card (Blase) -->
+                <div class="contact-card">
+
+                    <img src="assets/blob-yellow.svg" alt="" class="contact-deco">
+
+                    <form class="contact-form row">
+
+                        <div class="col-5 col-tablet-12">
+                            <label for="name">Name:</label>
+                            <input id="name" type="text" placeholder="Max Mustermann" required>
+                        </div>
+
+                        <div class="col-5 col-tablet-12">
+                            <label for="email">Email:</label>
+                            <input id="email" type="email" placeholder="info@testemail.de" required>
+                        </div>
+
+                        <div class="col-10 col-tablet-12">
+                            <label for="message">Message:</label>
+                            <textarea id="message" rows="5" placeholder="Deine Nachricht..."></textarea>
+                        </div>
+
+                        <div class="col-12 contact-actions">
+                            <button class="btn btn-primary">Absenden</button>
+                        </div>
+
+                    </form>
+
                 </div>
+
+
 
                 <div class="row">
                     <div class="col-12">

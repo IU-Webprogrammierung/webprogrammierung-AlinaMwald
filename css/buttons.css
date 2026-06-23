@@ -54,3 +54,10 @@
   outline: 3px solid rgba(153,26,77,0.16);
   outline-offset: 4px;
 }
+
+/* Contact Button */
+.contact-actions {
+  display: flex;
+  justify-content: flex-end;  /* 🔥 nach rechts */
+  margin-top: var(--space-md);
+}

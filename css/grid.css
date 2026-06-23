@@ -59,16 +59,13 @@
 .col-11 { grid-column: span 11; }
 .col-12 { grid-column: span 12; }
 
-
 @media (max-width: 768px) {
-  .col-8 {
+  .col-6, .col-8 {
     grid-column: span 12;
   }
+}
 
-  .col-6 {
-    grid-column: span 12;
-  }
-
+@media (max-width: 992px) {
   .col-tablet-12 {
     grid-column: span 12;
   }
