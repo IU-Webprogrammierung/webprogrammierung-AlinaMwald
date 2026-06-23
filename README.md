@@ -71,4 +71,15 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
     width: 100%;
   }
 }
-``
+
+### Gallery Layout Decision
+
+- The gallery was intentionally implemented using CSS Grid instead of a true masonry layout.
+- Reasons:
+
+  - **Maintain accessibility and reading order** 
+  - **Preserve logical structure**
+  - **Ensure predictable responsive behavior** across devices
+  - **Avoid layout instability and variability**
+
+- Images are displayed with their **natural aspect ratios**, creating an uneven grid" that matches the design
