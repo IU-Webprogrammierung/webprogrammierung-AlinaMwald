@@ -501,7 +501,6 @@ input:focus, textarea:focus {
   display: grid;
   grid-template-columns: 140px 1fr;
   gap: var(--space-sm);
-
   align-items: start;
   margin: var(--space-sm) 0;
 }
@@ -510,6 +509,17 @@ input:focus, textarea:focus {
   font-weight: 700;
   white-space: nowrap;
 }
+
+@media (max-width: 768px) {
+  .cv-item {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-date {
+    margin-bottom: 4px;
+  }
+}
+
 
 hr {
   border: none;
