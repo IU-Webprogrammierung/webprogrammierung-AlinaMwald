@@ -24,6 +24,10 @@ body {
     color: #303030;
 }
 
+.text-pink {
+  color: #991A4D;
+}
+
 p {
   margin-bottom: var(--space-md);
 }
