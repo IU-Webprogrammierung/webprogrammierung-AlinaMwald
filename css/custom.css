@@ -520,9 +520,44 @@ input:focus, textarea:focus {
   }
 }
 
-
 hr {
   border: none;
   border-top: 1px solid rgba(255,255,255,0.2);
   margin: var(--space-sm) 0;
 }
+
+.deco-stars-about {
+  position: absolute;
+  bottom: -20px;   
+  left: 20%;
+  width: clamp(80px, 25vw, 140px);
+}
+
+.deco-about-plant {
+  position: absolute;
+  left: 35%;                   
+  bottom: 5%;
+  transform: translate(-30%, 40%);
+  width: clamp(80px, 12vw, 180px);
+  z-index: 2;
+}
+
+
+@media (max-width: 768px) {
+  .deco-stars-about {
+    bottom: -10px;
+    left: 10%;
+  }
+  .deco-about-plant {
+    display: none;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .deco-about-plant {
+    transform: translate(-20%, 35%);
+    left: 90%;
+  }
+}
+
