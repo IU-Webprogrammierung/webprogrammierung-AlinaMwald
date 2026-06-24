@@ -486,3 +486,29 @@ input:focus, textarea:focus {
     width: clamp(80px, 25vw, 140px);
   }
 }
+
+/* CV */
+
+.cv {
+  max-width: 800px;
+}
+
+.cv-item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: var(--space-sm);
+
+  align-items: start;
+  margin: var(--space-sm) 0;
+}
+
+.cv-date {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  margin: var(--space-sm) 0;
+}
