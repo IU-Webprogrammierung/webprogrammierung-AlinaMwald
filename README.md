@@ -87,7 +87,6 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 
 - Images are displayed with their **natural aspect ratios**, creating an uneven, editorial-style grid that matches the design intent.
 
-
 # Design & Implementation Notes
 
 ### Home Page Hero Section
