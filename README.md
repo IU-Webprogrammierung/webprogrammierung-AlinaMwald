@@ -101,6 +101,7 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 # Interest items
 - On smaller screens, interest items unintentionally switched to a 2-column layout due to global grid rules.  
 - local media query override ensures the items remain in a 3-column layout across all breakpoints
+- mobile 4 elements next to each other were approved
 
 ### CV Section
 - The original design was simplified for better readability and structure  
