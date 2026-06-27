@@ -9,6 +9,12 @@ During the concept phase, website content, information architecture, visual desi
 
 Current standards for usability, user experience, responsive web design, and accessibility according to WCAG 2.2 are considered throughout the development process.
 
+# Breakpoints
+- Desktop: > 992px  
+- Tablet: ≤ 992px  
+- Mobile: ≤ 768px  
+-> A custom 12-column grid system is used with responsive column overrides.
+
 # Github Preview
 https://iu-webprogrammierung.github.io/webprogrammierung-AlinaMwald/
 
@@ -17,7 +23,7 @@ https://iu-webprogrammierung.github.io/webprogrammierung-AlinaMwald/
 Accessibility and semantic web standards were considered throughout the design and implementation process to create an inclusive and user-friendly experience.
 
 - **Semantic HTML structure**  
-  Use of elements such as `header`, `nav`, `main`, and `section` improves document structure and supports screen readers (WCAG 1.3.1 Info and Relationships).
+  Use of elements such as `header`, `nav`, `main`, and `section` improves document structure and supports screen readers.
 
 - **Heading hierarchy**  
   A clear hierarchy from `h1` to `h4` ensures logical content structure and easier navigation.
@@ -29,9 +35,9 @@ Accessibility and semantic web standards were considered throughout the design a
   - All inputs are associated with labels using `for` and `id`  
   - `name` attributes are provided for all fields  
   - Required fields are clearly indicated  
-  → improves form usability and accessibility 
+
 - **Focus visibility**  
-  Interactive elements (links, buttons, inputs) provide visible focus styles to support keyboard navigation.
+  Interactive elements (links, buttons, inputs) provide visible focus styles to support usability and keyboard navigation.
 
 - **Images and alt text**  
   - Informative images include descriptive `alt` attributes  
@@ -42,21 +48,18 @@ Accessibility and semantic web standards were considered throughout the design a
   Headline sizes are defined using `clamp()` to ensure readability across different screen sizes.
 
 - **Readable text layout**  
-  Text content is limited to a maximum width of `65ch` to improve readability and reduce cognitive load.
+  Text content **.text-content** is limited to a maximum width of `65ch` to improve readability and avoids overly long sentences.
 
-- **Clear and concise content**  
-  Text content avoids overly long sentences and unnecessary complexity, improving comprehension.
-
-# Performance
-The used svgs are only 32px wide or high to ensure small file sizes and better performance
+# Image Optimization
+- Raster images are provided in **WebP format** to improve performance and reduce file size.  
+- SVGs are used for decorative elements and icons due to their scalability and small file size.
 
 # Navigation Fix: Navigation Links Not Clickable
-In the hero section, absolutely positioned elements (images) were overlapping the navigation, preventing links from being clickable.
-Solution: Ensure the navigation has a higher stacking order with z-index!
+- Issue: Navigation links were not clickable due to overlapping absolute elements in the hero section.  
+- Solution: Adjusted stacking context using `z-index`.
 
 # Responsive form overflow issue
-On small screen sizes, the contact form inputs and submit button exceeded the viewport width and caused horizontal overflow.
-This was due to the combination of CSS Grid columns, gaps, and padding, which made the layout exceed 100% width on narrow screens.
+On small screen sizes, the contact form inputs and submit button exceeded the viewport width and caused horizontal overflow. This was due to the combination of CSS Grid columns, gaps, and padding, which made the layout exceed 100% width on narrow screens.
 Solution:
 For mobile devices, the grid-based form layout was simplified to a vertical flex layout to ensure consistent responsiveness.
 
@@ -72,20 +75,30 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
   }
 }
 
-### Gallery Layout Decision
+# Gallery Layout Decision
 
 - The gallery was intentionally implemented using CSS Grid instead of a true masonry layout.
-- Reasons:
 
-  - **Maintain accessibility and reading order** 
-  - **Preserve logical structure**
-  - **Ensure predictable responsive behavior** across devices
-  - **Avoid layout instability and variability**
+**Reasons:**
+- Maintain accessibility and correct reading order  
+- Preserve a logical document structure  
+- Ensure predictable responsive behavior across devices  
+- Avoid layout instability and inconsistent positioning  
 
-- Images are displayed with their **natural aspect ratios**, creating an uneven grid" that matches the design
+- Images are displayed with their **natural aspect ratios**, creating an uneven, editorial-style grid that matches the design intent.
 
-# Home Page Hero Section
-- decision for advanced layout typography and elements 
-- difficult responsive adjustments
 
-# Slanted Backgrounds
+# Design & Implementation Notes
+
+### Home Page Hero Section
+- Custom typography-based layout with layered elements -> decision for advanced layout typography and elements 
+- Required extensive responsive fine-tuning to ensure consistent alignment across breakpoints  
+
+### Slanted Backgrounds
+- Implemented using `clip-path`  
+- Careful handling of positioning and stacking contexts was required to avoid rendering issues  
+- Positioning decorative elements across section boundaries presented a particular challenge  
+
+### CV Section
+- The original design was simplified for better readability and structure  
+- Implemented as a structured timeline using text and `hr` separators  
