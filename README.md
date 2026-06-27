@@ -101,3 +101,7 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 ### CV Section
 - The original design was simplified for better readability and structure  
 - Implemented as a structured timeline using text and `hr` separators  
+
+### Accidentally used wrong branch for image optimizations
+- The intention was to build the about page
+- Instead I first optimized my images performance by changing them from png to webp
