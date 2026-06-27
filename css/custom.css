@@ -476,7 +476,6 @@ input:focus, textarea:focus {
   }
 }
 
-
 @media (max-width: 768px) {
   .contact-deco {
     right: -10px;
@@ -490,6 +489,22 @@ input:focus, textarea:focus {
     width: clamp(80px, 25vw, 140px);
   }
 }
+
+/* About Subpage */
+
+
+@media (min-width: 992px) and (max-width: 1530px) {
+
+  .special-breakpoint.col-4 {
+    grid-column: span 6;
+  }
+
+  .special-breakpoint.col-8 {
+    grid-column: span 6;
+  }
+
+}
+
 
 /* Customized for about Things… & Was ich heute mag*/
 .interests-list {
