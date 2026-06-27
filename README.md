@@ -83,3 +83,9 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
   - **Avoid layout instability and variability**
 
 - Images are displayed with their **natural aspect ratios**, creating an uneven grid" that matches the design
+
+# Home Page Hero Section
+- decision for advanced layout typography and elements 
+- difficult responsive adjustments
+
+# Slanted Backgrounds

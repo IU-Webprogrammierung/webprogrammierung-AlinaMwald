@@ -553,11 +553,30 @@ hr {
   }
 }
 
-
 @media (max-width: 992px) {
   .deco-about-plant {
     transform: translate(-20%, 35%);
     left: 90%;
   }
+}
+
+
+.interests-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.interest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.interest img {
+  width: clamp(40px, 6vw, 70px);
+  margin-bottom: var(--space-xs);
 }
 

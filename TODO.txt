@@ -30,4 +30,7 @@ Accessibility
 
   - Responsiveness Bild Person bei 833x855px zB funktioniert noch nicht!
 
-  - Button mit einem Klick wieder nahc oben hinzufügen
+  - Button mit einem Klick wieder nach oben hinzufügen
+  - Btn hover effect kleine Animation
+  - Zusatz in README schräge Abtrennung der sections
+  - Positionierung Hero index.html
