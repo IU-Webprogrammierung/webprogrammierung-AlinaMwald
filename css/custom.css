@@ -505,7 +505,6 @@ input:focus, textarea:focus {
 
 }
 
-
 /* Customized for about Things… & Was ich heute mag*/
 .interests-list {
   list-style: none;
@@ -585,11 +584,11 @@ hr {
   width: clamp(80px, 25vw, 140px);
 }
 
-.deco-about-plant {
+.deco-plant-about {
   position: absolute;
   left: 35%;                   
   bottom: 5%;
-  transform: translate(-30%, 40%);
+  transform: translate(-20%, 40%);
   width: clamp(80px, 12vw, 180px);
   z-index: 2;
 }
@@ -597,17 +596,28 @@ hr {
 
 @media (max-width: 768px) {
   .deco-stars-about {
-    bottom: -10px;
-    left: 10%;
+    bottom: -60px;
+    left: 50%;
   }
-  .deco-about-plant {
+  .deco-plant-about {
     display: none;
   }
 }
 
 @media (max-width: 992px) {
-  .deco-about-plant {
-    transform: translate(-20%, 35%);
-    left: 90%;
+  .deco-plant-about {
+    transform: translate(370%, 35%);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1530px) {
+
+  .deco-stars-about {
+    bottom: 100px;
+    left: 80%;
+  }
+
+  .deco-plant-about {
+    transform: translate(120%, 35%);
   }
 }
