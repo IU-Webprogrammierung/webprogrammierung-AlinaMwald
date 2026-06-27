@@ -34,3 +34,5 @@ Accessibility
   - Btn hover effect kleine Animation
   - Zusatz in README schräge Abtrennung der sections
   - Positionierung Hero index.html
+
+  - Fontawesome durch SVG ersetzen

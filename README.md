@@ -18,6 +18,14 @@ Current standards for usability, user experience, responsive web design, and acc
 # Github Preview
 https://iu-webprogrammierung.github.io/webprogrammierung-AlinaMwald/
 
+
+# CSS Structure
+
+- CSS is split into multiple files during development for better structure and maintainability  
+- In production, all styles are bundled into a single `main.css` file  
+- This avoids render-blocking requests and improves performance  
+
+
 # Accessibility
 
 Accessibility and semantic web standards were considered throughout the design and implementation process to create an inclusive and user-friendly experience.
@@ -101,7 +109,6 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 # Interest items
 - On smaller screens, interest items unintentionally switched to a 2-column layout due to global grid rules.  
 - local media query override ensures the items remain in a 3-column layout across all breakpoints
-- mobile 4 elements next to each other were approved
 
 ### CV Section
 - The original design was simplified for better readability and structure  
