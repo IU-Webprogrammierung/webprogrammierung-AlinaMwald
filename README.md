@@ -98,6 +98,10 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 - Careful handling of positioning and stacking contexts was required to avoid rendering issues  
 - Positioning decorative elements across section boundaries presented a particular challenge  
 
+# Interest items
+- On smaller screens, interest items unintentionally switched to a 2-column layout due to global grid rules.  
+- local media query override ensures the items remain in a 3-column layout across all breakpoints
+
 ### CV Section
 - The original design was simplified for better readability and structure  
 - Implemented as a structured timeline using text and `hr` separators  
@@ -105,3 +109,4 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 ### Accidentally used wrong branch for image optimizations
 - The intention was to build the about page
 - Instead I first optimized my images performance by changing them from png to webp
+

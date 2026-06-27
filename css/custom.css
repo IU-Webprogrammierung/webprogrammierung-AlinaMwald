@@ -491,6 +491,40 @@ input:focus, textarea:focus {
   }
 }
 
+/* Customized for about Things… & Was ich heute mag*/
+.interests-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.interest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.interest img {
+  width: clamp(100px, 6vw, 200px);
+  margin-bottom: var(--space-xs);
+}
+
+/* Deactivate standardized grid */
+@media (max-width: 768px) {
+  .interests-list .col-4 {
+    grid-column: span 4;
+    gap: var(--space-xs); 
+  }
+}
+
+@media (max-width: 992px) {
+  .interests-list .col-4 {
+    grid-column: span 4;
+    gap: var(--space-xs); 
+  }
+}
+
 /* CV */
 
 .cv {
@@ -560,23 +594,4 @@ hr {
   }
 }
 
-
-.interests-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-
-.interest {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.interest img {
-  width: clamp(40px, 6vw, 70px);
-  margin-bottom: var(--space-xs);
-}
 
