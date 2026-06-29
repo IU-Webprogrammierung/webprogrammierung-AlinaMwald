@@ -15,6 +15,13 @@ Current standards for usability, user experience, responsive web design, and acc
 - Mobile: ≤ 768px  
 -> A custom 12-column grid system is used with responsive column overrides.
 
+
+### Special Breakpoint
+
+- A custom intermediate breakpoint (`special-breakpoint`) was introduced to improve layout behavior between desktop and tablet in the About hero-section. 
+- It adjusts the column layout to maintain balanced proportions and readable text widths  
+
+
 # Github Preview
 https://iu-webprogrammierung.github.io/webprogrammierung-AlinaMwald/
 
@@ -101,6 +108,9 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 - Custom typography-based layout with layered elements -> decision for advanced layout typography and elements 
 - Required extensive responsive fine-tuning to ensure consistent alignment across breakpoints  
 
+### JS for active navigation
+XXXX
+
 ### Slanted Backgrounds
 - Implemented using `clip-path`  
 - Careful handling of positioning and stacking contexts was required to avoid rendering issues  
@@ -117,4 +127,5 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 ### Accidentally used wrong branch for image optimizations
 - The intention was to build the about page
 - Instead I first optimized my images performance by changing them from png to webp
+
 
