@@ -15,6 +15,8 @@ Current standards for usability, user experience, responsive web design, and acc
 - Mobile: ≤ 768px  
 -> A custom 12-column grid system is used with responsive column overrides.
 
+# Browser
+- developed for Google Chrome
 
 ### Special Breakpoint
 
