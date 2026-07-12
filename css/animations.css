@@ -1,0 +1,28 @@
+/* Animation herosection Reveal*/
+
+@keyframes bockReveal {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-heading span {
+    display: block;
+    opacity: 0;
+    animation: bockReveal 1s ease forwards;
+}
+
+.hero-heading span:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.hero-heading span:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.hero-heading span:nth-child(3) {
+    animation-delay: 0.6s;
+}
