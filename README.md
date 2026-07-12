@@ -147,4 +147,8 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 - Scroll-triggered animations are implemented with `animation-timeline: view()`
 - Elements animate only when entering the viewport and remain static afterwards
 
+### Back-to-Top Button
+- A reusable back-to-top component was implemented across all pages in footer section
+- The button appears only after scrolling using JavaScript and a CSS-based visibility toggle
+
 
