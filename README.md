@@ -112,14 +112,12 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 
 
 ## Active Navigation
-
 - JavaScript is used to automatically highlight the currently active navigation link
 - The current page path is compared to all navigation links and the matching link receives an `.active` class
 - This ensures consistent orientation and improves usability across all pages
 - Implementing a reliable active state proved challenging due to the combination of multiple pages and anchor links
 
 ### Responsive Navigation
-
 - JavaScript is used to toggle the mobile navigation menu
 - A responsive class is added or removed when the menu button is activated
 - This enables a simplified navigation experience on smaller screens
@@ -150,5 +148,9 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 ### Back-to-Top Button
 - A reusable back-to-top component was implemented across all pages in footer section
 - The button appears only after scrolling using JavaScript and a CSS-based visibility toggle
+
+### 404 Page
+- A custom 404 page was implemented with an animated chicken illustration and a direct link back to the homepage
+
 
 
