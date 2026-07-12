@@ -89,7 +89,7 @@ textarea:focus-visible {
   font-size: 1.5rem;
   font-weight: 700;
   position: fixed;
-  
+
   width: 80px;
   height: 80px;
   border-radius: 50%;
@@ -121,4 +121,17 @@ textarea:focus-visible {
 .back-to-top:focus-visible {
   outline: 3px solid #991A4D;
   outline-offset: 4px;
+}
+
+
+@media (max-width: 767px) {
+
+  .back-to-top {
+    width: 48px;
+    height: 48px;
+    right: var(--space-sm);
+    bottom: var(--space-sm);
+    font-size: 1.25rem;
+  }
+
 }
