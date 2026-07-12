@@ -43,6 +43,10 @@
 
 /* Gallery images */
 
+.img-gallery {
+  z-index: 100;
+}
+
 .img-gallery img { /* kein objectfit: cover ! */
   width: 100%;
   height: auto;   
