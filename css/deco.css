@@ -43,7 +43,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   .deco {
    display: block;
@@ -105,7 +105,7 @@
   z-index: 2;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .contact-deco {
     right: -10px; /* weniger weit raus */
     top: -20px;
@@ -157,7 +157,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .contact-deco {
     right: -10px;
     top: -20px;
@@ -190,7 +190,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .deco-stars-about {
     bottom: -60px;
     left: 50%;

@@ -186,7 +186,7 @@ section {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   .hero-text {
     text-align: center;
@@ -267,7 +267,7 @@ section {
   padding: var(--space-xl);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .contact-card {
     padding: var(--space-sm);
   }
@@ -325,7 +325,7 @@ input:focus, textarea:focus {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
   .contact-form {
     display: flex;
@@ -380,7 +380,7 @@ input:focus, textarea:focus {
 }
 
 /* Deactivate standardized grid */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .interests-list .col-4 {
     grid-column: span 4;
     gap: var(--space-xs); 
@@ -413,7 +413,7 @@ input:focus, textarea:focus {
   white-space: nowrap;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .cv-item {
     grid-template-columns: 1fr;
   }

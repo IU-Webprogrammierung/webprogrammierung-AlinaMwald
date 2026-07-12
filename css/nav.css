@@ -34,7 +34,7 @@
   color: #991A4D
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .navbar {
     justify-content: flex-start;
   }
@@ -47,7 +47,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .navbar.responsive {
     position: relative;
     flex-direction: column;

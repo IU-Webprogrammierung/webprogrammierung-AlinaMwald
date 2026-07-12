@@ -19,7 +19,7 @@
 }
 
 /* Responsive adjustments spacing*/
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   section {
     padding: var(--space-md) 0;
   }
@@ -38,7 +38,7 @@
   padding: 0 var(--container-padding);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .container {
     padding: 0 var(--space-sm); /* statt 30px */
   }
@@ -80,7 +80,7 @@
   .col-tablet-12 { grid-column: span 12;}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .col-8 { grid-column: span 12;}
   .col-4 { grid-column: span 12; }
 }

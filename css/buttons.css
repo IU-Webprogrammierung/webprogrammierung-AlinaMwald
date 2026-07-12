@@ -70,7 +70,7 @@ textarea:focus-visible {
   margin-top: var(--space-md);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .contact-actions {
     justify-content: center;
   }

@@ -22,7 +22,7 @@
 .hero-img {
   width: 100%;
   height: auto;
-  aspect-ratio: 16 / 5;   /* 🔥 Desktop Banner Verhältnis */
+  aspect-ratio: 16 / 5;
   object-fit: cover;
   display: block;
 }
@@ -35,9 +35,9 @@
 }
 
 /* Mobile = Quadrat */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .hero-img {
-    aspect-ratio: 1 / 1;   /* 🔥 DAS ist dein gewünschtes Quadrat */
+    aspect-ratio: 1 / 1;  
   }
 }
 

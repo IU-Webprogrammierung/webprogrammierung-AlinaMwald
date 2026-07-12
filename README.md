@@ -12,7 +12,7 @@ Current standards for usability, user experience, responsive web design, and acc
 # Breakpoints
 - Desktop: > 992px  
 - Tablet: ≤ 992px  
-- Mobile: ≤ 768px  
+- Mobile: ≤ 767px  
 -> A custom 12-column grid system is used with responsive column overrides.
 
 # Browser
@@ -80,7 +80,7 @@ On small screen sizes, the contact form inputs and submit button exceeded the vi
 Solution:
 For mobile devices, the grid-based form layout was simplified to a vertical flex layout to ensure consistent responsiveness.
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .contact-form {
     display: flex;
     flex-direction: column;
