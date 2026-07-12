@@ -31,3 +31,35 @@ function myFunction() {
   if (!navbar) return;
   navbar.classList.toggle("responsive");
 }
+
+/* JavaScript for back to top button */
+
+async function loadComponent(selector, path) {
+  const response = await fetch(path);
+  const html = await response.text();
+
+  const element = document.querySelector(selector);
+  element.innerHTML = html;
+
+  if (selector === "header") { // Call setActiveNavLink after the header is loaded
+    setActiveNavLink();
+  }
+
+  if (selector === "footer") {
+    initBackToTop();
+  }
+}
+
+function initBackToTop() {
+  const backToTop = document.querySelector(".back-to-top"); 
+
+  if (!backToTop) return;
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 500) { // Show the button after scrolling down 500px
+      backToTop.classList.add("show");
+    } else {
+      backToTop.classList.remove("show");
+    }
+  });
+}

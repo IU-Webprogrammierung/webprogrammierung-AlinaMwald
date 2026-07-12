@@ -81,3 +81,44 @@ textarea:focus-visible {
     justify-content: center;
   }
 }
+
+/* Back to top */
+
+.back-to-top {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  position: fixed;
+  
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+  right: var(--space-md);
+  bottom: var(--space-md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s ease, visibility .3s ease, transform .25s cubic-bezier(.34,1.56,.64,1), background-color .2s ease;
+  z-index: 100;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.back-to-top:hover,
+.back-to-top:focus-visible {
+  background-color: #F7E700;
+  transform: translateY(-4px) scale(1.05);
+}
+
+.back-to-top:focus-visible {
+  outline: 3px solid #991A4D;
+  outline-offset: 4px;
+}
