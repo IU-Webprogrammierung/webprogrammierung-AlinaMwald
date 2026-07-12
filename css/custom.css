@@ -165,11 +165,15 @@ section {
   z-index: 1;
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
 
   .hero-heading {
     transform: scale(0.75);
     transform-origin: top center;
+  }
+
+  .word {
+    font-size: 6rem;
   }
 
   .word-1 {
@@ -182,6 +186,19 @@ section {
 
   .word-3 {
     transform: translate(0px, 160px) rotate(-3deg);
+  }
+
+  .hero-chicken {
+    width: 42%
+  }
+
+  .hero-person {
+    position: relative;
+    width: 45%;
+    max-width: 240px;
+    left: 5%;
+    bottom: -4rem;
+    z-index: 2;
   }
 
 }
