@@ -84,7 +84,6 @@
     animation: decoWiggle 3.5s ease-in-out 2;
 }
 
-
 @keyframes decoWiggle {
     0%, 100% {
         transform: rotate(0deg);
@@ -101,4 +100,42 @@
     75% {
         transform: rotate(4deg);
     }
+}
+
+/* Chicken Lost Animation */
+@keyframes chickenLost {
+
+    0% {
+        opacity: 0;
+        transform: translateX(500px) rotate(8deg);
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    /* 1. Hüpfer */
+    20% {
+        transform: translateX(380px) translateY(-35px) rotate(-6deg);
+    }
+    30% {
+        transform: translateX(300px) translateY(0) rotate(4deg);
+    }
+
+    /* 2. Hüpfer */
+    45% {
+        transform: translateX(200px) translateY(-28px) rotate(-4deg);
+    }
+    55% {
+        transform: translateX(130px) translateY(0) rotate(3deg);
+    }
+
+    70% {
+        transform: translateX(60px) translateY(-18px) rotate(-2deg);
+    }
+
+    80% {
+        transform: translateX(20px) translateY(0) rotate(2deg);
+    }
+
 }

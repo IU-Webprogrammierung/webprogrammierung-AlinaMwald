@@ -1,0 +1,18 @@
+.error-page {
+    min-height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+
+/* Error Chicken */
+
+.error-chicken {
+    width: clamp(220px, 15vw, 320px);
+    margin-top: var(--space-lg);
+    animation: chickenLost 4s ease-out forwards;
+}
