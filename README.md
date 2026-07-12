@@ -110,8 +110,19 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 - Custom typography-based layout with layered elements -> decision for advanced layout typography and elements 
 - Required extensive responsive fine-tuning to ensure consistent alignment across breakpoints  
 
-### JS for active navigation
-XXXX
+
+## Active Navigation
+
+- JavaScript is used to automatically highlight the currently active navigation link
+- The current page path is compared to all navigation links and the matching link receives an `.active` class
+- This ensures consistent orientation and improves usability across all pages
+- Implementing a reliable active state proved challenging due to the combination of multiple pages and anchor links
+
+### Responsive Navigation
+
+- JavaScript is used to toggle the mobile navigation menu
+- A responsive class is added or removed when the menu button is activated
+- This enables a simplified navigation experience on smaller screens
 
 ### Slanted Backgrounds
 - Implemented using `clip-path`  
@@ -129,5 +140,11 @@ XXXX
 ### Accidentally used wrong branch for image optimizations
 - The intention was to build the about page
 - Instead I first optimized my images performance by changing them from png to webp
+
+### Animations
+- Subtle CSS animations are used to enhance decorative elements and support the visual style
+- Animations are only applied selectively to avoid distracting from the content
+- Scroll-triggered animations are implemented with `animation-timeline: view()`
+- Elements animate only when entering the viewport and remain static afterwards
 
 
