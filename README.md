@@ -67,6 +67,10 @@ Accessibility and semantic web standards were considered throughout the design a
 - **Readable text layout**  
   Text content **.text-content** is limited to a maximum width of `65ch` to improve readability and avoids overly long sentences.
 
+- **Semantic image grouping**
+  - Portfolio images are grouped using semantic `figure` elements to improve structure and screen reader accessibility  
+  - Descriptive `figcaption` texts provide additional context beyond image alt texts  
+
 # Image Optimization
 - Raster images are provided in **WebP format** to improve performance and reduce file size.  
 - SVGs are used for decorative elements and icons due to their scalability and small file size.
@@ -127,7 +131,7 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 - Careful handling of positioning and stacking contexts was required to avoid rendering issues  
 - Positioning decorative elements across section boundaries presented a particular challenge  
 
-# Interest items
+### Interest items
 - On smaller screens, interest items unintentionally switched to a 2-column layout due to global grid rules.  
 - local media query override ensures the items remain in a 3-column layout across all breakpoints
 
