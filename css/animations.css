@@ -139,3 +139,11 @@
     }
 
 }
+
+
+@media (prefers-reduced-motion: reduce) { /* Disable animations for users who prefer reduced motion */
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
