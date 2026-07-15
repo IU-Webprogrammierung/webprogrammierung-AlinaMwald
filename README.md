@@ -75,6 +75,9 @@ Accessibility and semantic web standards were considered throughout the design a
   - Portfolio images are grouped using semantic `figure` elements to improve structure and screen reader accessibility  
   - Descriptive `figcaption` texts provide additional context beyond image alt texts  
 
+- **Form fields**
+  - Form fields use appropriate `autocomplete` attributes (e.g. `name`, `email`) to improve usability and support browser-assisted form completion
+
 # Image Optimization
 - Raster images are provided in **WebP format** to improve performance and reduce file size.  
 - SVGs are used for decorative elements and icons due to their scalability and small file size.
