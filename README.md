@@ -67,6 +67,10 @@ Accessibility and semantic web standards were considered throughout the design a
 - **Readable text layout**  
   Text content **.text-content** is limited to a maximum width of `65ch` to improve readability and avoids overly long sentences.
 
+- **Prefers reduced motion**
+  - Animations respect the user's `prefers-reduced-motion` setting 
+  →  support motion-sensitive users and improve accessibility
+
 - **Semantic image grouping**
   - Portfolio images are grouped using semantic `figure` elements to improve structure and screen reader accessibility  
   - Descriptive `figcaption` texts provide additional context beyond image alt texts  
