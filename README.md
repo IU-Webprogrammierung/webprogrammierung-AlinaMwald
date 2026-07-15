@@ -160,5 +160,7 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 ### 404 Page
 - A custom 404 page was implemented with an animated chicken illustration and a direct link back to the homepage
 
-
-
+### Favicon
+- created with Favvy Favicon Exporter (Figma)
+- Added SVG, ICO and Apple Touch Icon support for broad browser compatibility  
+- Added a web manifest and custom theme color for improved device integration
