@@ -175,3 +175,4 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 - tested on work.html
 - A separate branch was used to evaluate Tailwind CSS as an alternative approach without affecting the primary implementation
 - Instalation of tailwind CLI instead of PostCSS to keep overhead small
+- Responsive layouts and breakpoint handling was easier and required less custom CSS
