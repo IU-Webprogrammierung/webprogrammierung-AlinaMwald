@@ -1,20 +1,7 @@
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3,h4, h5, h6 {
   font-family: 'Tilt Warp', sans-serif;
   line-height: 1.1;
   margin-bottom: var(--space-sm);
-}
-
-h1 {
-  font-size: clamp(2.5rem, 6vw, 5.5rem);
-}
-
-h2 {
-  font-size: clamp(1.75rem, 5vw, 4.25rem);
-}
-
-h3 {
-font-size: clamp(1.3rem, 4vw, 3.25rem);
-margin-top: var(--space-sm);
 }
 
 h4{
@@ -29,8 +16,4 @@ h5, .h5 {
 h6, .h6 {
   font-size: 1.357rem;
   color: #991A4D;
-}
-
-.h1-subpage {
-  margin-top: var(--space-xl);
 }
