@@ -170,3 +170,7 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 - created with Favvy Favicon Exporter (Figma)
 - Added SVG, ICO and Apple Touch Icon support for broad browser compatibility  
 - Added a web manifest and custom theme color for improved device integration
+
+# Test Framework Tailwind
+- A separate branch was used to evaluate Tailwind CSS as an alternative approach without affecting the primary implementation
+- Instalation of tailwind CLI instead of PostCSS to keep overhead small
