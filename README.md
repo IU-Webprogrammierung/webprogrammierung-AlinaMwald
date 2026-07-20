@@ -121,7 +121,6 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 - Custom typography-based layout with layered elements -> decision for advanced layout typography and elements 
 - Required extensive responsive fine-tuning to ensure consistent alignment across breakpoints  
 
-
 ## Active Navigation
 - JavaScript is used to automatically highlight the currently active navigation link
 - The current page path is compared to all navigation links and the matching link receives an `.active` class
@@ -132,6 +131,10 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 - JavaScript is used to toggle the mobile navigation menu
 - A responsive class is added or removed when the menu button is activated
 - This enables a simplified navigation experience on smaller screens
+
+## Spacing System
+- A custom spacing scale (`--space-xs` to `--space-xl`) is used throughout the project
+- Consistent spacing improves maintainability, visual hierarchy and responsiveness
 
 ### Slanted Backgrounds
 - Implemented using `clip-path`  
