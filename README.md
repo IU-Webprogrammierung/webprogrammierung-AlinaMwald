@@ -9,31 +9,35 @@ During the concept phase, website content, information architecture, visual desi
 
 Current standards for usability, user experience, responsive web design, and accessibility according to WCAG 2.2 are considered throughout the development process.
 
+# Github Preview
+https://iu-webprogrammierung.github.io/webprogrammierung-AlinaMwald/
+
+# Browser
+- developed for Google Chrome  
+
 # Breakpoints
 - Desktop: > 992px  
 - Tablet: ≤ 992px  
 - Mobile: ≤ 767px  
 -> A custom 12-column grid system is used with responsive column overrides.
 
-# Browser
-- developed for Google Chrome
-
 ### Special Breakpoint
-
 - A custom intermediate breakpoint (`special-breakpoint`) was introduced to improve layout behavior between desktop and tablet in the About hero-section. 
-- It adjusts the column layout to maintain balanced proportions and readable text widths  
+- It adjusts the column layout to maintain balanced proportions and readable text widths
 
-
-# Github Preview
-https://iu-webprogrammierung.github.io/webprogrammierung-AlinaMwald/
-
+# HTML & CSS Features
+- Semantic HTML5 elements (`header`, `nav`, `main`, `section`, `article`, `figure`, `figcaption`, `footer`)
+- CSS Grid for layout structure
+- Flexbox for component alignment
+- CSS Custom Properties for spacing and design tokens
+- `clamp()` for responsive typography
+- `aspect-ratio` for image containers
+- Media queries for responsive behavior
 
 # CSS Structure
-
 - CSS is split into multiple files during development for better structure and maintainability  
 - In production, all styles are bundled into a single `main.css` file  
 - This avoids render-blocking requests and improves performance  
-
 
 # Accessibility
 
@@ -178,6 +182,10 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 - created with Favvy Favicon Exporter (Figma)
 - Added SVG, ICO and Apple Touch Icon support for broad browser compatibility  
 - Added a web manifest and custom theme color for improved device integration
+
+# Testing
+- Chrome DevTools for responsive testing and debugging
+- Lighthouse for accessibility, performance and best practices check
 
 # Test Framework Tailwind
 - Tested on work.html
