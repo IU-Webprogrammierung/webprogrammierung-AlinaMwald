@@ -180,29 +180,20 @@
   width: clamp(80px, 25vw, 140px);
 }
 
+
 .deco-plant-about {
   position: absolute;
-  left: 35%;                   
-  bottom: 5%;
-  transform: translate(-20%, 40%);
+  bottom: 0;
+  left: 0;
+  transform: translate(-35%, 35%);
   width: clamp(80px, 12vw, 180px);
   z-index: 2;
 }
-
 
 @media (max-width: 767px) {
   .deco-stars-about {
     bottom: -60px;
     left: 50%;
-  }
-  .deco-plant-about {
-    display: none;
-  }
-}
-
-@media (max-width: 992px) {
-  .deco-plant-about {
-    transform: translate(370%, 35%);
   }
 }
 
@@ -211,9 +202,5 @@
   .deco-stars-about {
     bottom: 100px;
     left: 80%;
-  }
-
-  .deco-plant-about {
-    transform: translate(120%, 35%);
   }
 }
