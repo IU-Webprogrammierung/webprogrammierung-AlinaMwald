@@ -174,6 +174,8 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 # Test Framework Tailwind
 - tested on work.html
 - A separate branch was used to evaluate Tailwind CSS as an alternative approach without affecting the primary implementation
-- Instalation of tailwind CLI instead of PostCSS to keep overhead small
+- Integration with cdn for testing purposes
+- Grid layouts, containers, spacing and responsive breakpoints were rebuilt using Tailwind utilities
 - Responsive layouts and breakpoint handling was easier and required less custom CSS
 - Testing showed that Tailwind provides clear advantages in terms of consistency and implementation speed when adopted from the beginning of a project
+→ **Conclusion:** Based on this evaluation, Tailwind appears to be a more efficient approach for future projects than implementing all layout and utility systems manually from scratch.
