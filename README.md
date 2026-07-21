@@ -78,6 +78,13 @@ Accessibility and semantic web standards were considered throughout the design a
 - **Form fields**
   - Form fields use appropriate `autocomplete` attributes (e.g. `name`, `email`) to improve usability and support browser-assisted form completion
 
+# User Interactions
+- Responsive navigation menu with JavaScript toggle
+- Hover and focus states for buttons, navigation links and interactive images
+- Contact form with accessible input fields
+- Back-to-top button appears dynamically after scrolling
+- Internal page navigation through anchors and links
+
 # Image Optimization
 - Raster images are provided in **WebP format** to improve performance and reduce file size.  
 - SVGs are used for decorative elements and icons due to their scalability and small file size.
@@ -85,6 +92,7 @@ Accessibility and semantic web standards were considered throughout the design a
 # Navigation Fix: Navigation Links Not Clickable
 - Issue: Navigation links were not clickable due to overlapping absolute elements in the hero section.  
 - Solution: Adjusted stacking context using `z-index`.
+
 
 # Responsive form overflow issue
 On small screen sizes, the contact form inputs and submit button exceeded the viewport width and caused horizontal overflow. This was due to the combination of CSS Grid columns, gaps, and padding, which made the layout exceed 100% width on narrow screens.
