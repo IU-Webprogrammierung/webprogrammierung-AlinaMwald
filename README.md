@@ -90,6 +90,9 @@ Accessibility and semantic web standards were considered throughout the design a
 - **Form fields**
   - Form fields use appropriate `autocomplete` attributes (e.g. `name`, `email`) to improve usability and support browser-assisted form completion
 
+-**Smooth scrolling**
+  - Smooth scrolling is used for anchor navigation and disabled for users who prefer reduced motion
+
 # User Interactions
 - Responsive navigation menu with JavaScript toggle
 - Hover and focus states for buttons, navigation links and interactive images
