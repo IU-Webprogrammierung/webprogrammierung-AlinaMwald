@@ -191,6 +191,11 @@ For mobile devices, the grid-based form layout was simplified to a vertical flex
 - Added SVG, ICO and Apple Touch Icon support for broad browser compatibility  
 - Added a web manifest and custom theme color for improved device integration
 
+### Print Style for About page
+- Added a print version for the About page
+- Decorative elements and navigation are hidden when printing
+- The CV and content are displayed in a more compact and readable layout
+
 # Testing
 - Chrome DevTools for responsive testing and debugging
 - Lighthouse for accessibility, performance and best practices check
