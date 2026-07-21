@@ -12,6 +12,11 @@ Current standards for usability, user experience, responsive web design, and acc
 # Github Preview
 https://iu-webprogrammierung.github.io/webprogrammierung-AlinaMwald/
 
+
+# Git Workflow
+- Development was managed using Git and GitHub
+- Features were developed in separate branches before merging
+
 # Browser
 - developed for Google Chrome  
 
@@ -38,6 +43,9 @@ https://iu-webprogrammierung.github.io/webprogrammierung-AlinaMwald/
 - CSS is split into multiple files during development for better structure and maintainability  
 - In production, all styles are bundled into a single `main.css` file  
 - This avoids render-blocking requests and improves performance  
+
+# Refactoring
+- Reusable components were introduced for header and footer content
 
 # Accessibility
 
