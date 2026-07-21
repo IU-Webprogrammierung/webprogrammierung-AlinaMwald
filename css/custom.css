@@ -75,6 +75,12 @@ section {
     padding: var(--space-xl) 0;
 }
 
+@media (max-width: 767px) {
+  section {
+    padding: var(--space-xs) 0;
+  }
+}
+
 .section-title {
   margin-bottom: var(--space-lg);
 }
