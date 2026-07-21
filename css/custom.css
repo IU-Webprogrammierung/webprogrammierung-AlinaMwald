@@ -453,3 +453,68 @@ hr {
   border-top: 1px solid rgba(255,255,255,0.2);
   margin: var(--space-sm) 0;
 }
+
+@media print {
+
+  body, .bg-dark, .bg-light, .bg-primary, .cv, .cv * {
+    color: black !important;
+    background: white !important;
+  }
+
+  header, footer, .deco, .btn, .back-to-top {
+    display: none !important;
+  }
+
+  .slanted-section, .slanted-bottom {
+    clip-path: none;
+  }
+
+  body {
+    font-size: 11pt;
+    line-height: 1.3;
+  }
+
+  section {
+    padding: 0.5rem 0 !important;
+  }
+
+  .section-title {
+    font-size: 22pt;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    margin-bottom: 0.4rem;
+  }
+
+  .image-wrapper img,
+  .hero-img {
+    max-width: 40%;
+    height: auto;
+  }
+
+  .interest img {
+    max-width: 60px;
+  }
+
+  a {
+    color: inherit !important;
+    text-decoration: none;
+  }
+
+  .cv-item {
+    grid-template-columns: 100px 1fr;
+    gap: 0.5rem;
+    margin: 0.25rem 0;
+    break-inside: avoid;
+  }
+
+  .cv-date {
+    font-weight: 700;
+  }
+
+  hr {
+    margin: 0.3rem 0;
+    border-top: 1px solid black;
+  }
+}
