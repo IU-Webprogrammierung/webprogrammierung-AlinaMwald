@@ -18,8 +18,15 @@
 
 }
 
-/* Responsive adjustments spacing*/
 @media (max-width: 767px) {
+  :root {   
+    --grid-gap: 16px;
+  }
+
+  .container {
+    padding: 0 var(--space-sm);
+  }
+
   section {
     padding: var(--space-md) 0;
   }
