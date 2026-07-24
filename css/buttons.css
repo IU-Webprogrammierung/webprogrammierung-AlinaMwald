@@ -9,6 +9,7 @@
 
   padding: var(--space-sm);
   margin-top: var(--space-md);
+  margin-bottom: var(--space-md);
   transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.25s cubic-bezier(.34,1.56,.64,1);
 
 }

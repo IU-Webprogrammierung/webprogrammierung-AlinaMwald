@@ -164,10 +164,7 @@
   }
 
   .deco-work-plant {
-    transform: none;     
-    bottom: 1%;          
-    right: clamp(5%, 10%, 15%);
-    width: clamp(80px, 25vw, 140px);
+  display: none;
   }
 }
 
